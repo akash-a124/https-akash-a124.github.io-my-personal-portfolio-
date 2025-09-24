@@ -5,10 +5,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Akash A | Cybersecurity Researcher</title>
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Basic nav styling (you can move this to styles.css) */
+    nav {
+      background: #333;
+      padding: 10px 0;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+    nav ul li a:hover {
+      color: #ff9800;
+    }
+  </style>
 </head>
 <body>
-  <!-- Header -->
-  <header>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header / Home -->
+  <header id="home">
     <div class="container header-content">
       <h1>Akash A</h1>
       <p class="subtitle">Cybersecurity Researcher</p>
@@ -23,9 +61,9 @@
 
   <!-- Main Content -->
   <main class="container">
-    <!-- Summary -->
-    <section id="summary">
-      <h2>Summary</h2>
+    <!-- About -->
+    <section id="about">
+      <h2>About Me</h2>
       <p>
         Cybersecurity professional with expertise in penetration testing, vulnerability assessments, 
         network security, and incident response. Skilled in using advanced tools and methodologies 
@@ -34,20 +72,31 @@
       </p>
     </section>
 
-    <!-- Education -->
-    <section id="education">
-      <h2>Education</h2>
+    <!-- Services -->
+    <section id="services">
+      <h2>Services</h2>
       <ul>
-        <li><strong>VLB Janakiammal College of Arts and Science</strong>, Coimbatore</li>
-        <li><strong>Poyilkavu Higher Secondary School</strong></li>
-        <li><strong>Project:</strong> Driver Connect using Python and MySQL</li>
+        <li>Penetration Testing & Vulnerability Assessment</li>
+        <li>Network Security Consulting</li>
+        <li>Incident Response Assistance</li>
+        <li>Cyber Awareness Training</li>
+      </ul>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Penetration Testing (Web, Network, System)</li>
+        <li>SIEM Tools (Log Monitoring & Threat Investigation)</li>
+        <li>Python, MySQL</li>
+        <li>Incident Response & Threat Mitigation</li>
       </ul>
     </section>
 
     <!-- Experience -->
     <section id="experience">
       <h2>Experience</h2>
-
       <div class="job">
         <h3>Cybersecurity Student Trainee – Offenso Hackers Academy</h3>
         <p><em>Calicut, Kerala</em></p>
@@ -55,4 +104,24 @@
           <li>Conducted penetration testing on web apps, networks, and systems.</li>
           <li>Performed vulnerability assessments and privilege escalation.</li>
           <li>Monitored logs, investigated threats using SIEM tools.</li>
-          <li>Assisted in incident response and threat mitigation strategies
+          <li>Assisted in incident response and threat mitigation strategies.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:akashanoo124@gmail.com">akashanoo124@gmail.com</a></p>
+      <p>Phone: +91-7356904073</p>
+      <p>Location: Calicut, Kerala</p>
+      <p><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Akash A | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
